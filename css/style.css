@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  background: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+}
+body main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body main .card {
+  background: hsl(216, 50%, 16%);
+  color: hsl(215, 51%, 70%);
+  padding: 25px;
+  width: 350px;
+  border-radius: 1rem;
+}
+body main .card img.main {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+body main .card h2 {
+  color: hsl(0, 0%, 100%);
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+body main .card p.text {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+body main .card div.eth {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: inherit;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+body main .card div.eth span.eth img {
+  margin-right: 5px;
+}
+body main .card div.eth span.clc img {
+  margin-right: 5px;
+}
+body main .card hr {
+  margin-bottom: 20px;
+}
+body main .card div.creation {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+body main .card div.creation img.creation {
+  width: 2rem;
+  border-radius: 50%;
+  border: 2px solid hsl(0, 0%, 100%);
+}
+body main .card div.creation p.creation b {
+  color: hsl(0, 0%, 100%);
+}
+body main .attribution {
+  color: hsl(215, 51%, 70%);
+  margin-top: 3rem;
+  font-size: 11px;
+  text-align: center;
+}
+body main .attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */
