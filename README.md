@@ -31,9 +31,9 @@ Users should be able to:
 
 ### Screenshot
 
-| Desktop version                                                          |                           Mobile Version                            |
-| ------------------------------------------------------------------------ | :-----------------------------------------------------------------: |
-| ![Solution Screenshot](./design/desktop-design.jpgdesktop-completed.jpg) | ![Solution Screenshot](./design/mobile-design.jpgmobile-design.jpg) |
+| Desktop version                                     |                   Mobile Version                   |
+| --------------------------------------------------- | :------------------------------------------------: |
+| ![Solution Screenshot](./design/desktop-design.jpg) | ![Solution Screenshot](./design/mobile-design.jpg) |
 
 ### Links
 
